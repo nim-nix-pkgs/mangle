@@ -11,6 +11,7 @@
   inputs.src-mangle-master.ref   = "refs/heads/master";
   inputs.src-mangle-master.owner = "baabelfish";
   inputs.src-mangle-master.repo  = "mangle";
+  inputs.src-mangle-master.dir   = "";
   inputs.src-mangle-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
